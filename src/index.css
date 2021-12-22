@@ -1,0 +1,20 @@
+body {
+  font-family: "Century Gothic", Futura, sans-serif;
+  font-size: xx-large;
+  margin: 1.5em;
+  color: white;
+  background-color: black;
+}
+
+#quote-box {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 1em;
+  border: 2em ridge rgb(221, 113, 113);
+  background-color: violet;
+  height: 70vh;
+}
+
