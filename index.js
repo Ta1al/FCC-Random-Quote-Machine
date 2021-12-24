@@ -11,27 +11,28 @@ function QuoteBox() {
         setQuote(data.content);
         setAuthor(data.author);
       });
-  };
+  }
 
   return (
-    
-    <div id="quote-box">
+    <div class="container" id="quote-box">
       <h1>Randam Quote Machine</h1>
-      <p id="text">{quote}</p>
-      <p id="author">- {author}</p>
-      <p>
+      <div id="quote">
+        <p id="text">{quote}</p>
+        <p id="author">- {author}</p>
+      </div>
+      <div>
         <a
           id="tweet-quote"
           href={`https://twitter.com/intent/tweet?text="${quote}" - ${author}`}
           target="_blank"
           rel="noreferrer"
         >
-          Tweet
+          Tweet it
         </a>
-      </p>
-      <button onClick={() => getQuote()} id="new-quote">
-        Get Quote
-      </button>
+        <button onClick={() => getQuote()} id="new-quote">
+          Get Another Quote
+        </button>
+      </div>
     </div>
   );
 }

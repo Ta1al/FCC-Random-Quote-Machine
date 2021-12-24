@@ -1,20 +1,35 @@
 body {
-  font-family: "Century Gothic", Futura, sans-serif;
-  font-size: xx-large;
-  margin: 1.5em;
   color: white;
   background-color: black;
 }
 
 #quote-box {
+  margin-top: 20vh;
+  padding: 20px;
   text-align: center;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  padding: 1em;
   border: 2em ridge rgb(221, 113, 113);
-  background-color: violet;
-  height: 70vh;
+  background-color: grey;
 }
 
+#quote {
+  border: 2px solid black;
+  margin: 5vh;
+  padding: 5vh;
+  background-color: darkorange;
+}
+
+#tweet-quote {
+  background-color: #1d9bf0;
+  padding: 15px 32px;
+  margin: 4px 2px;
+  color: white;
+  text-decoration: none;
+}
+
+button {
+  background-color: rgb(9, 192, 24);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  margin: 4px 2px;
+}
